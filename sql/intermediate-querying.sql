@@ -53,3 +53,16 @@ FROM tasks
 GROUP BY state, priority
 HAVING priority = 'P1';
 
+
+SELECT 
+  au.id,
+  au.given_name,
+  au.surname,
+  au.email,
+  au.username,
+  au."password",
+  au.role_id,
+  ur."role" 
+FROM app_users au
+JOIN user_roles ur
+ON au.role_id = ur.id;
