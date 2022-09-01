@@ -2,7 +2,7 @@
 
 ## Project Description
 
-For the foundations module of your training you are tasked with building an API that will support a new internal expense reimbursement system. This system will manage the process of reimbursing employees for expenses incurred while on company time. This system will work closely with the internal PRISM application - which is used for processing payments to employees. All registered employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests. Finance managers can log in and view all reimbursement requests and past history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement.
+For the foundations module of your training you are tasked with building an API that will support a new internal expense reimbursement system. This system will manage the process of reimbursing employees for expenses incurred while on company time. All registered employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests. Finance managers can log in and view all reimbursement requests and past history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement.
 
 ### Project Design Specifications and Documents
 
@@ -39,7 +39,6 @@ Reimbursements are to be one of the following types:
 
 - An new employee or new finance manager can request registration with the system
 - An admin user can approve or deny new registration requests
-- The system will register the user's information with the PRISM application for payment processing
 - A registered employee can authenticate with the system by providing valid credentials
 - An authenticated employee can view and manage their pending reimbursement requests
 - An authenticated employee can view their reimbursement request history (sortable and filterable)
@@ -77,7 +76,6 @@ Reimbursements are to be one of the following types:
 |---------------------------------------------------------------------------------------------------|---------------------------|-------|
 | An new employee or new finance manager can request registration with the system                   | Functional                | 10    |
 | An admin user can approve or deny new registration requests                                       | Functional                | 5     |
-| The system will register the user's information with the PRISM application for payment processing | Functional                | 5     |
 | A registered employee can authenticate with the system by providing valid credentials             | Functional                | 10    |
 | An authenticated employee can view and manage their pending reimbursement requests                | Functional                | 10    |
 | An authenticated employee can view their reimbursement request history (sortable and filterable)  | Functional                | 10    |
