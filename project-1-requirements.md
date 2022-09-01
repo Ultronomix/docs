@@ -25,7 +25,7 @@ Reimbursements are to be one of the following types:
 ### Technologies
 
 **Persistence Tier**
-- PostGreSQL (running on Docker)
+- PostGreSQL (running on AWS)
 
 **Application Tier**
 - Java 8
