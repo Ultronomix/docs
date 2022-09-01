@@ -32,13 +32,8 @@ Reimbursements are to be one of the following types:
 - Apache Maven
 - JDBC
 - Java EE Servlets
-- JSON Web Tokens
 - JUnit
 - Mockito
-
-### PRISM
-
-The PRISM application is another internal system that your expense reimbursement will communicate with when employee reimbursement requests are approved. You can find the codebase for the PRISM application with instructions for running it locally [here](https://github.com/220207-java-enterprise/prism).
 
 ### Functional Requirements
 
