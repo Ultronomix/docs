@@ -7,7 +7,7 @@ For the foundations module of your training you are tasked with building an API 
 ### Project Design Specifications and Documents
 
 ##### Relational Data Model
-![Relational Model](https://github.com/220207-java-enterprise/assignments/blob/main/foundations-project/imgs/ERS%20Relational%20Model.png)
+![Relational Model](https://raw.githubusercontent.com/Ultronomix/docs/main/imgs/ERS%20Relational%20Model%20(Postgre).png)
 
 ##### Reimbursement Types
 Reimbursements are to be one of the following types:
@@ -17,10 +17,10 @@ Reimbursements are to be one of the following types:
 - OTHER 
 
 ##### System Use Case Diagrams
-![System Use Case Diagrams](https://raw.githubusercontent.com/220207-java-enterprise/assignments/main/foundations-project/imgs/ERS%20Use%20Case%20Diagram.png)
+![System Use Case Diagrams](https://raw.githubusercontent.com/Ultronomix/docs/main/imgs/ERS%20Use%20Case%20Diagram.png)
 
 ##### Reimbursment Status State Flow
-![Reimbursment Status State Flow](https://raw.githubusercontent.com/220207-java-enterprise/assignments/main/foundations-project/imgs/ERS%20State%20Flow%20Diagram.png)
+![Reimbursment Status State Flow](https://raw.githubusercontent.com/Ultronomix/docs/main/imgs/ERS%20State%20Flow%20Diagram.png)
 
 ### Technologies
 
@@ -37,8 +37,7 @@ Reimbursements are to be one of the following types:
 
 ### Functional Requirements
 
-- An new employee or new finance manager can request registration with the system
-- An admin user can approve or deny new registration requests
+- An admin user can insert and update new employees and new finance managers
 - A registered employee can authenticate with the system by providing valid credentials
 - An authenticated employee can view and manage their pending reimbursement requests
 - An authenticated employee can view their reimbursement request history (sortable and filterable)
@@ -58,6 +57,7 @@ Reimbursements are to be one of the following types:
 - The system's is tested with at least 80% line coverage in all service and utility classes
 - The system's data schema and component design is documented and diagrammed 
 - The system keeps detailed logs on info, error, and fatal events that occur 
+- The API is deployed to a AWS EC2 via a CI/CD pipeline
 
 ### Suggested Bonus Features
 - Sensitive endpoints are protected from unauthenticated and unauthorized requesters using JWTs or Sessions
@@ -88,7 +88,7 @@ Reimbursements are to be one of the following types:
 | User passwords will be encrypted by the system before persisting them to the data source          | Non-Functional            | 5     |
 | Users are unable to recall reimbursement requests once they have been processed                   | Non-Functional            | 10    |
 | Errors and exceptions are handled properly and their details are obfuscated from the user         | Non-Functional            | 10    |
-| The system conforms to RESTful architecture constraints                                           | Non-Functional            | 10    |
+| The system conforms to RESTful architecture constraints                                           | Non-Functional            | 5     |
 | The system's is tested with at least 80% line coverage in all service and utility classes         | Non-Functional            | 10    |
 | The system's data schema and component design is documented and diagrammed                        | Non-Functional            | 5     |
 | The system keeps detailed logs on info, error, and fatal events that occur                        | Non-Functional            | 5     |
