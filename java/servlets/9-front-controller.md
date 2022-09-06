@@ -1,0 +1,3 @@
+# Front Controller Design Pattern
+
+The Front Controller design pattern is defined as “a controller that handles all requests for a Web site”. It stands in front of a web-application and delegates requests to subsequent resources. It also provides an interface to common behavior such as security, internationalization and presenting particular views to certain users. Using this pattern along with Java servlets allows us to create a central dispatcher servlet which, along with with the help of some request mapping utility class, will forward requests along to controller classes. 
