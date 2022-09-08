@@ -1,0 +1,14 @@
+# Reflection
+- Reflection is a type of Meta Programing
+  - Code that reads and modifies your code
+- With Reflection we can programmitcally edit our Java Programs
+  - This is a very powerful ability
+- Annotations are a popular place we see reflection
+  - Annotations DO NOT actually *do* anything
+  - Annotations can be read by Java Reflection to make meaningful changes
+- Sky is the limit with reflection
+  - Genrating code based off of classes
+  - Faking out the compiler
+    - Access private fields outside of the class
+    - Directly edit the string pool
+    - etc...
