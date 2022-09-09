@@ -12,7 +12,7 @@ public class SolutionTest extends TestCase {
         int[] nums = {1, 3, 5, 6};
         int target = 5;
 
-        Assert.assertEquals(2, sut.searchInsert(nums, target));
+        Assert.assertEquals(2, sut.insertPosition(nums, target));
     }
 
     @Test
@@ -20,7 +20,7 @@ public class SolutionTest extends TestCase {
         int[] nums = {1, 3, 5, 6};
         int target = 2;
 
-        Assert.assertEquals(1, sut.searchInsert(nums, target));
+        Assert.assertEquals(1, sut.insertPosition(nums, target));
     }
 
     @Test
@@ -28,7 +28,7 @@ public class SolutionTest extends TestCase {
         int[] nums = {1, 3, 5, 6};
         int target = 7;
 
-        Assert.assertEquals(4, sut.searchInsert(nums, target));
+        Assert.assertEquals(4, sut.insertPosition(nums, target));
     }
 
     @Test
@@ -36,7 +36,7 @@ public class SolutionTest extends TestCase {
         int[] nums = {1};
         int target = 1;
 
-        Assert.assertEquals(0, sut.searchInsert(nums, target));
+        Assert.assertEquals(0, sut.insertPosition(nums, target));
     }
 
     @Test
@@ -44,6 +44,6 @@ public class SolutionTest extends TestCase {
         int[] nums = {1, 3, 5, 6, 7};
         int target = 7;
 
-        Assert.assertEquals(4, sut.searchInsert(nums, target));
+        Assert.assertEquals(4, sut.insertPosition(nums, target));
     }
 }
