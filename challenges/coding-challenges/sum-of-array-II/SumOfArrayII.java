@@ -13,5 +13,6 @@ public class SumOfArrayII{
             sum = sum + y[i];
         }
         System.out.println("The sum value = " +sum );
+        sc.close();
     }
 }
