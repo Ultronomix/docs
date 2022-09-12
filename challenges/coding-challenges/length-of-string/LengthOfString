@@ -1,0 +1,23 @@
+import java.util.*;
+
+
+class LengthOfString{
+public static void main(String[] arg){
+
+    Scanner sc = new Scanner(System.in);
+    String input = sc.nextLine();
+    String Abbreviation = input.substring(0, 5);
+
+    if (input.length() > 10) {
+        System.out.println(Abbreviation);
+
+    }
+
+else if (input.length() <= 10) {   
+    
+    System.out.println(input); }  
+
+}
+
+
+}

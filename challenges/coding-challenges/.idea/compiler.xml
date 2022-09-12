@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="recurring-word" />
+        <module name="challenges" />
+        <module name="recurringWordII" />
+        <module name="finding-cycles" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="challenges" target="1.8" />
+      <module name="finding-cycles" target="1.8" />
+      <module name="recurring-word" target="1.8" />
+      <module name="recurringWordII" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

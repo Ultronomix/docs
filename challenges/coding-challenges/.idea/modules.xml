@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/insert-position/challenges.iml" filepath="$PROJECT_DIR$/insert-position/challenges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/coding-challenges.iml" filepath="$PROJECT_DIR$/.idea/coding-challenges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/finding-cycles/finding-cycles.iml" filepath="$PROJECT_DIR$/finding-cycles/finding-cycles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recurring-word/recurring-word.iml" filepath="$PROJECT_DIR$/recurring-word/recurring-word.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recurring-word-II/recurringWordII.iml" filepath="$PROJECT_DIR$/recurring-word-II/recurringWordII.iml" />
+    </modules>
+  </component>
+</project>
