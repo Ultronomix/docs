@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/docs/java/functional-java/pom.xml" />
+        <option value="$PROJECT_DIR$/docs/java/reflective-java/pom.xml" />
+        <option value="$PROJECT_DIR$/docs/java/multithreaded-java/pom.xml" />
+        <option value="$PROJECT_DIR$/docs/challenges/coding-challenges/finding-cycles/pom.xml" />
+        <option value="$PROJECT_DIR$/docs/challenges/coding-challenges/recurring-word/pom.xml" />
+        <option value="$PROJECT_DIR$/docs/challenges/coding-challenges/insert-position/pom.xml" />
+        <option value="$PROJECT_DIR$/docs/challenges/coding-challenges/recurring-word-II/pom.xml" />
+        <option value="$PROJECT_DIR$/docs/java-collections/CollectionsDemo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
