@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/java-collections/CollectionsDemo/CollectionsDemo.iml" filepath="$PROJECT_DIR$/java-collections/CollectionsDemo/CollectionsDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/challenges/coding-challenges/insert-position/challenges.iml" filepath="$PROJECT_DIR$/challenges/coding-challenges/insert-position/challenges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/docs.iml" filepath="$PROJECT_DIR$/.idea/docs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/challenges/coding-challenges/finding-cycles/finding-cycles.iml" filepath="$PROJECT_DIR$/challenges/coding-challenges/finding-cycles/finding-cycles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/functional-java/functional-java.iml" filepath="$PROJECT_DIR$/java/functional-java/functional-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/multithreaded-java/multithreaded-java.iml" filepath="$PROJECT_DIR$/java/multithreaded-java/multithreaded-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/challenges/coding-challenges/recurring-word/recurring-word.iml" filepath="$PROJECT_DIR$/challenges/coding-challenges/recurring-word/recurring-word.iml" />
+      <module fileurl="file://$PROJECT_DIR$/challenges/coding-challenges/recurring-word-II/recurringWordII.iml" filepath="$PROJECT_DIR$/challenges/coding-challenges/recurring-word-II/recurringWordII.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/reflective-java/reflective-java.iml" filepath="$PROJECT_DIR$/java/reflective-java/reflective-java.iml" />
+    </modules>
+  </component>
+</project>
