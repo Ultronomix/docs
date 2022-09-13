@@ -45,7 +45,7 @@ public class AppConfig {
         FootballCoach footballCoach = new FootballCoach();
         footballCoach.setWorkoutService(workoutService());
         footballCoach.setMotivationService(motivationServiceBean());
-        footballCoach.setTeamName("The Giant Roberts");
+        footballCoach.setTeamName("The Silly Louies");
         footballCoach.setEmail(coachEmail);
         return footballCoach;
     }

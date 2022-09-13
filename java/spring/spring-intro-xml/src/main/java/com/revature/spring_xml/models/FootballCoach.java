@@ -35,6 +35,7 @@ public class FootballCoach implements Coach {
         return motivationService;
     }
 
+    // Setter injection
     public void setMotivationService(MotivationService motivationService) {
         this.motivationService = motivationService;
     }
@@ -43,6 +44,7 @@ public class FootballCoach implements Coach {
         return workoutService;
     }
 
+    // Setter injection
     public void setWorkoutService(WorkoutService workoutService) {
         this.workoutService = workoutService;
     }

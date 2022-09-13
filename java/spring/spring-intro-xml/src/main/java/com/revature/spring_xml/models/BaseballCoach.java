@@ -8,6 +8,7 @@ public class BaseballCoach implements Coach {
     private final MotivationService motivationService;
     private final WorkoutService workoutService;
 
+    // Constructor injection
     public BaseballCoach(MotivationService motivationService, WorkoutService workoutService) {
         System.out.println("BaseballCoach#<init> invoked!");
         this.motivationService = motivationService;

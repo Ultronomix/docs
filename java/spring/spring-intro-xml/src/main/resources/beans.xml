@@ -23,11 +23,9 @@
     <bean id="footballCoach" class="com.revature.spring_xml.models.FootballCoach">
         <property name="workoutService" ref="workoutServiceBean"/>
         <property name="motivationService" ref="motivationServiceBean"/>
-        <property name="teamName" value="The Giant Roberts"/>
+        <property name="teamName" value="The Silly Louies"/>
         <property name="email" value="${coach-email}"/>
     </bean>
-
-    <bean id="objectMapper" class="com.fasterxml.jackson.databind.ObjectMapper"/>
 
     <!-- Used to link the application.properties file to this configuration -->
     <context:property-placeholder location="application.properties"/>
