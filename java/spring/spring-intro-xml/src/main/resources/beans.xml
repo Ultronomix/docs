@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/context
+						http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Provide the bean definition for the MotivationService -->
+    <bean id="motivationServiceBean" class="com.revature.spring_xml.services.MotivationService"/>
+
+    <!-- Provide the bean definition for the WorkoutService -->
+    <bean id="workoutServiceBean" class="com.revature.spring_xml.services.WorkoutService"/>
+
+    <!-- Provide a bean definition for a bean named myCoach -->
+    <bean id="myCoach" class="com.revature.spring_xml.models.TrackCoach" scope="prototype">
+        <constructor-arg ref="motivationServiceBean"/>
+        <constructor-arg ref="workoutServiceBean"/>
+    </bean>
+
+    <bean id="footballCoach" class="com.revature.spring_xml.models.FootballCoach">
+        <property name="workoutService" ref="workoutServiceBean"/>
+        <property name="motivationService" ref="motivationServiceBean"/>
+        <property name="teamName" value="The Giant Roberts"/>
+        <property name="email" value="${coach-email}"/>
+    </bean>
+
+    <bean id="objectMapper" class="com.fasterxml.jackson.databind.ObjectMapper"/>
+
+    <!-- Used to link the application.properties file to this configuration -->
+    <context:property-placeholder location="application.properties"/>
+
+</beans>
