@@ -2,12 +2,12 @@
 
 ## Project Description
 
-For the technology module of your training you are tasked with building a web-based expense reimbursement system. This system will manage the process of reimbursing employees for expenses incurred while on company time. This system will work closely with the internal PRISM application - which is used for processing payments to employees. All registered employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests. Finance managers can log in and view all reimbursement requests and past history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement.
+For the technology module of your training you are tasked with building a web-based expense reimbursement system. This system will manage the process of reimbursing employees for expenses incurred while on company time. All registered employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests. Finance managers can log in and view all reimbursement requests and past history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement.
 
 ### Project Design Specifications and Documents
 
 ##### Relational Data Model
-![Relational Model](https://raw.githubusercontent.com/220509-web-dev/activities/main/technology-project/imgs/ERS%20Relational%20Model.png)
+![Relational Model](https://raw.githubusercontent.com/Ultronomix/docs/main/imgs/ERS%20Relational%20Model%20(Postgre).png)
 
 ##### Reimbursement Types
 Reimbursements are to be one of the following types:
@@ -40,7 +40,7 @@ Reimbursements are to be one of the following types:
 - HTML
 - CSS
 - TypeScript
-- React
+- Angular
 
 **Deployment Platform Tools**
 - Cloud Provider: Amazon Web Services (AWS)
@@ -50,16 +50,10 @@ Reimbursements are to be one of the following types:
 - Build Automation: AWS Code Build
 - Pipeline Management: AWS Code Pipeline
 
-### PRISM
-
-The PRISM application is another internal system that your expense reimbursement will communicate with when employee reimbursement requests are approved. You can find the codebase for the PRISM application with instructions for running it locally [here](https://github.com/220509-web-dev/prism).
-
 ### Functional Requirements
 
-- The system will register itself with the 3rd-party PRISM application
 - An new employee or new finance manager can request registration with the system
 - An admin user can approve or deny new registration requests
-- The system will register the user's information with the PRISM application for payment processing
 - A registered employee can authenticate with the system by providing valid credentials
 - An authenticated employee can view and manage their pending reimbursement requests
 - An authenticated employee can view their reimbursement request history (sortable and filterable)
@@ -67,7 +61,6 @@ The PRISM application is another internal system that your expense reimbursement
 - An authenticated finance manager can view a list of all pending reimbursement requests
 - An authenticated finance manager can view a history of requests that they have approved/denied
 - An authenticated finance manager can approve/deny reimbursement requests
-- The system will send a payment request to PRISM when a reimbursement request is approved
 - An admin user can deactivate user accounts, making them unable to log into the system
 - An admin user can reset a registered user's password
 
@@ -94,7 +87,7 @@ The PRISM application is another internal system that your expense reimbursement
 
 
 #### Project Presentations 
-- 08Jul2022
+- TBD
 
 ## Minimal Viable Product Requirements (End-to-end completion)
 - Functional: Users are able to register for an account with the system
