@@ -7,7 +7,7 @@ For the technology module of your training you are tasked with building a web-ba
 ### Project Design Specifications and Documents
 
 ##### Relational Data Model
-![Relational Model](https://raw.githubusercontent.com/Ultronomix/docs/main/imgs/ERS%20Relational%20Model%20.png)
+![Relational Model](https://raw.githubusercontent.com/Ultronomix/docs/main/imgs/ERS%20Relational%20Model.png)
 
 ##### Reimbursement Types
 Reimbursements are to be one of the following types:
