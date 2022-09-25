@@ -174,7 +174,7 @@ this.age = age;
   - Here, you define a variable and then assign it to an object with the class keyword
 - Classes can have a special function in the class called a “constructor” that functions like a constructor in Java (initializes the object by assigning values to its variables.)
 
-![](../imgs/JS_class_syntax.png)
+![](./imgs/JS_class_syntax.png)
 
 ## Document Object Model (DOM) 
 
@@ -291,13 +291,13 @@ this.age = age;
 - **The Rest Operator is used in a function’s parameters.** It allows us to take values the user inputs into an **Array.** 
   - Sounds a little confusing, but this code snippet should make more sense.
 
-![](../imgs/rest_operator.png) 
+![](./imgs/rest_operator.png) 
 
 - This is a little more clear - the rest operator lets you put *the rest* of the inputted values into an Array to be used in the function. This allows for **code flexibility.**
 
 
 - **The Spread Operator** is a bit easier to understand. It lets you ***spread* iterators into individual values.** 
 
-![](../imgs/spread_operator.png)
+![](./imgs/spread_operator.png)
 
 - This lends to the concept of **destructuring assignment**, which is a Javascript expression that lets you unpack values from Arrays or other objects into individual values.
