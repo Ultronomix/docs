@@ -1,0 +1,138 @@
+<!DOCTYPE html> <!-- doctype declaration (not considered an element) declares the type of document -->
+<html lang="en"> <!-- root tag, all of our HTML goes in here -->
+
+<!-- The head is typically metadata -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelloHTMLCSS</title> <!-- This is the name that shows up on your tab -->
+
+    <!--Linking our EXTERNAL CSS STYLESHEET-->
+    <link rel="stylesheet" href="HelloHC.css">
+
+    <!--Linking a BOOTSTRAP CDN to gain access to predefined styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<!-- The actual content of your webpage goes in the body tag -->
+<body>
+
+    <!-- These are header elements, h1 is the largest, h6 is the smallest-->
+    <h1 style="color:burlywood">Hello HTML and CSS</h1>
+    <h3 style="background-color:navy">I am a front end developer now!!</h3>
+    
+    <p>I am a paragraph tag.</p> <p>Despite being written on the same line, we render on different lines</p>
+    <!-- Recall that p tags are BLOCK elements, they BLOCK a line on the webpage for themselves -->
+
+    <span>I am a span.</span> <span>I am another span.</span> <span>we are INLINE elements</span>
+
+    <br> <!-- Line breaks create a line of empty space-->
+    <br><br><br><br>
+
+    <!-- divs are your general division elements. -->
+    <div>
+        <p>I am a paragraph element in a div</p>
+        <span>I am a span in a div</span>
+        <button class="btn btn-info">click me</button>
+    </div>
+
+    <!--Lists------------------------------------------------------>
+
+    <div>
+        <h2>Favorite Pokemon</h2>
+
+        <!-- ordered list -->
+        <ol class="navbar navbar-collapse col-sm-6">
+            <li>Gengar</li>
+            <li>Mudkip</li>
+            <li>MissingNo</li>
+            <li>Aegislash</li>
+        </ol>
+
+        <h3>Honorable Mentions</h3>
+
+        <!-- unordered list -->
+        <ul id="unorderedList">
+            <li>Shuckle</li>
+            <li>Jigglypuff</li>
+            <li>Charmander</li>
+        </ul>
+
+    </div>
+
+    <!-- Tables------------------------------------------------>
+
+    <table class="table table-dark table-striped table-bordered"> <!-- THis element starts a table -->
+
+        <thead> <!-- This element defines the header row-->
+            <tr> <!-- This element is a row in the table -->
+                <th>Name</th> <!-- Data cell for header rows-->
+                <th>Favorite Animal</th>
+            </tr> 
+        </thead>
+
+        <tbody> <!-- defining the body of our table-->
+            <tr>
+                <td>Chaz</td> <!-- td is a data cell in the body-->
+                <td>Shark</td>
+            </tr>
+            <tr>
+                <td>Ben</td>
+                <td>Capybara</td>
+            </tr>
+            <tr>
+                <td>Marco</td>
+                <td>Dogs</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <!--Forms------------------------------------->
+
+    <!-- NOTE: you probably don't want to use forms in full stack apps-->
+    <!-- Can get very tricky when it involes HTTP requests-->
+
+    <br><br>
+
+    <form class="flex-container">
+
+        <label for="username">Enter username to log in</label>
+        <input type="text" name="username" placeholder="enter your username">
+        
+        <br>
+
+        <label for="password">Enter password to log in</label>
+        <input type="password" name="password" placeholder="enter your password">
+
+        <br><br><br>
+
+        <!-- Radio buttons let you choose ONE option -->
+        <input type="radio" name="radio" id="radio1">
+        <label for="radio1">option 1</label>
+
+        <input type="radio" name="radio" id="radio2">
+        <label for="radio2">option 2</label>
+
+        <input type="radio" name="radio" id="radio3">
+        <label for="radio3">option 3</label>
+
+        <br><br><br><br>
+
+        <!-- Checkboxes let you choose MULTIPLE options-->
+        <input type="checkbox" name="checkbox" id="checkbox1">
+        <label for="checkbox1">option 1</label>
+
+        <input type="checkbox" name="checkbox" id="checkbox2">
+        <label for="checkbox2">option 2</label>
+
+        <input type="checkbox" name="checkbox" id="checkbox3">
+        <label for="checkbox3">option 3</label>
+
+
+    </form>
+
+</body>
+</html>
