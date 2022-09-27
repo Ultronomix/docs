@@ -137,7 +137,7 @@
 - There are **three places you can declare CSS styling**
   - **External Style Sheets** (this tends to be best practice)
     - A separate CSS document that you link to in your HTML
-  - **Internally in the <head>** (pretty uncommon)
+  - **Internally in the `<head>`** (pretty uncommon)
   - **Inline of the actual HTML element tag** (not best practice but easy and ok to do in a pinch) 
 - In case of conflicts? What if you’re trying to style the same element in multiple declarations?
   - **The CSS closest to the element will “win”** in conflicts

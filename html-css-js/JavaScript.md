@@ -81,7 +81,7 @@
   - //we’re simply specifying explicitly what data type we want a certain value to change to.
 
 - **Implicit type coercion** is where JS will attempt to carry out your instructions by changing the type variable on its own. This happens when you apply operators to values of different types.
-  - E.g. `“3” \* 2;`
+  - E.g. `“3” * 2;`
   - //number - JS chooses this for us. Likely because you wouldn’t multiply a String
   - E.g. `“3” + 2;`
   - //string - Likely because you commonly concatenate strings 
