@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+</head>
+
+<body>
+    
+    <h2 id="header">Pokedex with Fetch api</h2>
+
+    <input type="number" id="userInput">
+    <button id="pokeButton">Search!</button>
+
+    <br><br>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="padding:20px">Name</th>
+                <th style="padding:20px">Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!--Leaving these empty to be filled by our fetch-->
+                <td id="pokename"></td>
+                <td id="poketype"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <img id="pokepic" src="" alt="">
+    <img id="pokepic2" src="" alt="">
+
+    <script src="HelloFetch.js"></script>
+</body>
+</html>
