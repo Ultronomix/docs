@@ -257,6 +257,8 @@ this.age = age;
 
 \*HelloFetch demo here\*
 
+#### some misc topics
+
 **Timing Events**
 
 - Timing events are used to **automate or run tasks after certain intervals of time.** Two common timing events you'll see are setTimeout() and setInterval()
