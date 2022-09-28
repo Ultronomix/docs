@@ -257,7 +257,7 @@ this.age = age;
 
 \*HelloFetch demo here\*
 
-#### some misc topics
+### some misc topics
 
 **Timing Events**
 
