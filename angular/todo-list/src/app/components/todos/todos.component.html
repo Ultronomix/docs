@@ -1,0 +1,20 @@
+<div class="grid-container">
+
+    <div class="todo-card" [hidden] = hiddenToggle> <!--[Property Binding] attribute to TS variable-->
+        <h2>Task #{{todo1.id}}</h2> <!--{{String interpolation}} taking TS values, rendering them here-->
+        <p>Task: {{todo1.task}}</p>
+        <p>Status: {{todo1.status}}</p>
+    </div>
+
+    <div class="todo-card" [hidden] = hiddenToggle>
+        <h2>Task #{{todo2.id}}</h2>
+        <p>Task: {{todo2.task}}</p>
+        <p>Status: {{todo2.status}}</p>
+    </div>
+
+</div>
+
+<div class="buttonDiv">
+    <!-- (Event Binding)! Like an event listener, binds some action to some TS function-->
+    <button (click)="showTodoList()">{{buttonMessage}}</button>
+</div>

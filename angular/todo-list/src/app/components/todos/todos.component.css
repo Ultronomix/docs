@@ -1,0 +1,20 @@
+.grid-container{
+    margin: 5%;
+    display: flex;
+    position: relative;
+    gap: 10%;
+}
+
+.todo-card {
+    width: 10em;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 10%;
+    text-align: center;
+    background-color:burlywood;
+}
+
+button{
+    background-color: burlywood;
+    border-radius: 25%;
+}
