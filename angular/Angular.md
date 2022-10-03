@@ -340,7 +340,7 @@ User is prompted to enter a username: `<input type = ‘text’ [(ngModel)] = �
 
 - Custom directives can be created using the Angular CLI. The command is: ng generate directive <directive-name>. We won’t get into these but feel free to use/implement one.
 
-\*Finished our todo-list demo with some directives in the HTML (\*ngIf, \*ngFor)\*
+\*Finished our todo-list demo with some directives in the HTML (\*ngIf, \*ngFor)\*---------------------------------------------------------------------
 
 
 
