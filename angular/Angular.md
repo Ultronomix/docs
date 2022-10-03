@@ -245,24 +245,24 @@
   - **String Interpolation** (often just called interpolation) - **This displays the value of a component’s variable as text in the HTML.** 
     - Syntax is two curly braces: {{var name}} in the HTML
     - E.g. 
-      - TS file: let myVar = ‘Ben’; 
-      - HTML: <p> Hello {{myVar}} </p>
+      - TS file: `let myVar = ‘Ben’;` 
+      - HTML: `<p> Hello {{myVar}} </p>`
       - This displays a paragraph that says “Hello Ben” on the page.
   - **Property Binding** - **This binds values of component variables to the attributes of HTML elements.** When the value of the variables changes, the attribute will change accordingly.
     - Syntax is square brackets: [attribute] = “variable name”
       - (this is done in the HTML tag)
-    - E.g. <img [src] = “image”> assume image is a TS variable
+    - E.g. `<img [src] = “image”>` assume image is a TS variable
   - **Event Binding -** This allows us to **bind DOM events such as button clicks, mouse overs etc, to a function in the component.** Similar to how our event handlers/listeners work.
     - Syntax is parenthesis: (event) = “function name”
       - (this is done in the HTML tag)
-    - E.g. <input type=”submit” (click) = “submitFunction()”/>
+    - E.g. `<input type=”submit” (click) = “submitFunction()”/>`
 
 - **Two-way Binding combines property binding and event binding together.** It is very useful for **collecting data from the user**. Two-way binding **allows for user inputs to be reflected in the component’s TS class!!!** 
   - You can think of it like how the Java Scanner object can take user input and store it in a variable, to be used. 
 - **It requires us to import the FormsModule in the imports section of the NgModule in app.module.ts** in order to be available for use in your Angular application. 
   - Syntax is “banana in a boat”:  [(ngModel)] = “variable name”
-    - E.g. <input type=”text” [(ngModel)] = “name”/>
-    - <p> Hello, {{name}}! </p>	
+    - E.g. `<input type=”text” [(ngModel)] = “name”/>`
+    - `<p> Hello, {{name}}! </p>`	
     - What’s going on here? The user is getting prompted to enter some text that will be assigned to a variable called “name” in TS. We could then use String Interpolation to display their input in a later tag. 
 
 \*Went back into todos demos\*
