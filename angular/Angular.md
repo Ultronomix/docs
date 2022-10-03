@@ -257,7 +257,7 @@
       - (this is done in the HTML tag)
     - E.g. `<input type=”submit” (click) = “submitFunction()”/>`
 
-- **Two-way Binding combines property binding and event binding together.** It is very useful for **collecting data from the user**. Two-way binding **allows for user inputs to be reflected in the component’s TS class!!!** 
+- **VERY IMPORTANT: Two-way Binding combines property binding and event binding together.** It is very useful for **collecting data from the user**. Two-way binding **allows for user inputs to be reflected in the component’s TS class!!!** 
   - You can think of it like how the Java Scanner object can take user input and store it in a variable, to be used. 
 - **It requires us to import the FormsModule in the imports section of the NgModule in app.module.ts** in order to be available for use in your Angular application. 
   - Syntax is “banana in a boat”:  [(ngModel)] = “variable name”
