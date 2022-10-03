@@ -299,18 +299,18 @@
 - **Examples of Attribute Directives**
   - **ngClass** - used to change the class of an HTML element to the value of the variable/expression you associate it with. We can give it several things:
     - String - the CSS classes declared as just a string
-      - E.g. [ngClass] = “theString’
+      - E.g. `[ngClass] = “theString’`
     - Array (of strings) - each element in the Array can be a separate class. 
-      - E.g. [ngClass] = [“firstClass”, “secondClass”] 
+      - E.g. `[ngClass] = [“firstClass”, “secondClass”]` 
         - (so this element has two classes)
     - Object - you can use an object where the keys are the class, and the values are the booleans that decide if the class is or is not added.
-      - E.g. [ngClass] = “{“first:true”, “second:false”}”
+      - E.g. `[ngClass] = “{“first:true”, “second:false”}”`
   - **The idea is that HTML classes are easily changeable when we use ngClass.** Instead of having to go to the document.getElementById, getAttribute(ClassName), THEN change the class... you just have them saved as variables in TS that you can easily call.
   - **ngStyle -** Used to change the style attributes of an HTML element based on some expression. 
 
-User is prompted to enter a username: <input type = ‘text’ [(ngModel)] = ‘username’>
+User is prompted to enter a username: `<input type = ‘text’ [(ngModel)] = ‘username’>`
 
-<div [ngStyle] = “{‘background-color’: username == ‘Admin’ ? ‘green’ : ‘red’> </div>
+`<div [ngStyle] = “{‘background-color’: username == ‘Admin’ ? ‘green’ : ‘red’> </div>`
 
 *(What’s happening here? Based on the username inputted, the background-color will change, thanks to us using ngStyle)*
 
