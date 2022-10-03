@@ -358,7 +358,7 @@ npm install ngx-bootstrap --save
 
 ng add ngx-bootstrap 
 
-\*You will need to do this in order to get your bootstrap styling to work, and sometimes if it stops works\*
+\*You will need to run these commands in order to get your bootstrap styling to work, and sometimes if it stops works\*
 
 npm uninstall @schematics/angular
 
