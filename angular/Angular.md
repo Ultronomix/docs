@@ -366,7 +366,7 @@ npm install @schematics/angular@9.1.0
 
 ng add ngx-bootstrap
 
-\*Something is outdated in the version of angular we installed: here’s a quick fix:
+\*If something is outdated in the version of angular installed: here’s a quick fix:
 
 npm audit fix --force
 
