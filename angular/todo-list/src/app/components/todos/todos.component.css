@@ -3,6 +3,8 @@
     display: flex;
     position: relative;
     gap: 10%;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr)
 }
 
 .todo-card {
@@ -17,4 +19,13 @@
 button{
     background-color: burlywood;
     border-radius: 25%;
+}
+
+input{
+    width: 80%
+}
+
+#myName{
+    width: 15%;
+    margin-top: 30px;
 }

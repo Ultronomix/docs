@@ -1,15 +1,26 @@
+<!-- *ngIf: this element will render IF the variable in TS == true -->
+<!-- ngIf is a STRUCTURAL DIRECTIVE -->
+<div *ngIf="greeterDivToggle" class="greeterDiv"> 
+    <label for="myName">What's your name?</label>
+    <input type="text" id="myName" [(ngModel)]="name"> <!-- 2 way binding is an ATTRIBUTE DIRECTIVE-->
+    <button (click)="submitName()">Submit Name</button>
+</div>
+
+<h2 *ngIf="finalName">Welcome, {{finalName}}</h2>
+
 <div class="grid-container">
 
-    <div class="todo-card" [hidden] = hiddenToggle> <!--[Property Binding] attribute to TS variable-->
-        <h2>Task #{{todo1.id}}</h2> <!--{{String interpolation}} taking TS values, rendering them here-->
-        <p>Task: {{todo1.task}}</p>
-        <p>Status: {{todo1.status}}</p>
-    </div>
+    <!-- *ngFor: STRUCTURAL DIRECTIVE, for every element in an Array, render this element once-->
+    <!-- let (whatever variable name) of (the array you're iterating through)-->
+    <div *ngFor="let todo of todosArray" class="todo-card" [hidden] = hiddenToggle> 
+        <!--[Property Binding] attribute to TS variable-->
+        <h2>Task #{{todo.id}}</h2> <!--{{String interpolation}} taking TS values, rendering them here-->
+        <p>Task: {{todo.task}}</p>
+        <p>Status: {{todo.status}}</p>
 
-    <div class="todo-card" [hidden] = hiddenToggle>
-        <h2>Task #{{todo2.id}}</h2>
-        <p>Task: {{todo2.task}}</p>
-        <p>Status: {{todo2.status}}</p>
+        <label for="updateBox">Update task</label>
+        <input id="updateBox" type="text" [(ngModel)]="todo.task">
+        <!-- [(TWO WAY BINDING)], which lets us take and use user input-->
     </div>
 
 </div>
