@@ -5,6 +5,7 @@ header{
     margin: auto;
     border-style: double;
     border-width: 3px;
+    backdrop-filter: blur(20px);
 }
 
 img{
