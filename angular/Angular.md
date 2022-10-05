@@ -376,11 +376,10 @@ npm audit fix --force
 - Thus far, we’ve had to manually change our URL to see different components
   - But using the RouterLink attribute in our HTML elements, we can show and hide components with the click of a button
 
-**Routing Guards**
+**Route Guards**
 
 - Angular has functionality for “guarding” certain routes in our application’s routing. **Essentially, routes can be labeled as only accessible to certain users.**
   - We don’t necessarily need to implement this, just know it exists as a way to design security into your application. 
-  - *The curriculum goes into greater detail on this if you’re curious*
 
 
 **Services (one of the main 3 parts of an Angular application)**
@@ -394,7 +393,7 @@ npm audit fix --force
 - **Services are fundamentally tied to Dependency Injection**  in Angular. So much so that they use the **@Injectable** decorator to identify them. (Because we INJECT them into components).
 - Generating a Service with the CLI can be done as usual
   - ng generate service services/<service-name> 
-    - OR ng g s services.<service-name>
+    - OR `ng g s services/service-name`
 - Giving a parameter in a component’s (or other class’s) TS file’s **constructor with an access modifier identifies to the Injector that it needs to provide that dependency.** (See constructor injection below)
 
 - export class EmployeeNamesComponent {
