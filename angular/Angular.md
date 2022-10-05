@@ -439,13 +439,11 @@ constructor(**private** employeeService : EmployeeService) {
 
 - \*magazine analogy\* A magazine publisher will constantly be publishing issues of a magazine, and sending them off to the mailbox of people who have a subscription. A subscriber can get the magazine from the mailbox, and use it for whatever they wish (get information from it, do nothing with it). A subscriber can unsubscribe at any time, and will no longer get magazines from the publisher. (This last part is a little less accurate, it would be more like the subscriber unsubscribes from looking at their mailbox).
 
-![](Aspose.Words.b047aeec-acb9-40df-b513-eb7481f68b19.003.png)
-
 **\*Every time your phone get a push notification, that’s publisher subscriber**
 
-- There is a sub-design pattern called the **Observable Pattern,** used in Angular
+- There is a sub-design pattern called the **Observable Pattern,** which we'll use in Angular
 
-- ![](Aspose.Words.b047aeec-acb9-40df-b513-eb7481f68b19.004.png)
+- ![](https://i.stack.imgur.com/vvHEc.png)
 
 - We have a **Subject (event channel) that maintains a list of Observers (subscribers).** It notifies the observers of any state changes (aka new published messages)
 - **Angular uses this design pattern with the HttpClient (see below) to manage HTTP requests.** This allows for the use of Observables instead of Promises!!! This is how we get away from promises. (Observables are generally considered better).
