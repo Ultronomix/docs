@@ -445,7 +445,6 @@ constructor(**private** employeeService : EmployeeService) {
 
 - ![](https://i.stack.imgur.com/vvHEc.png)
 
-- We have a **Subject (event channel) that maintains a list of Observers (subscribers).** It notifies the observers of any state changes (aka new published messages)
 - **Angular uses this design pattern with the HttpClient (see below) to manage HTTP requests.** This allows for the use of Observables instead of Promises!!! This is how we get away from promises. (Observables are generally considered better).
 
 # HTTP Requests in Angular
