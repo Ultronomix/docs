@@ -7,14 +7,16 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { PokedexComponent } from './components/pokedex/pokedex.component';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './components/login/login.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     WelcomeComponent,
-    PokedexComponent
+    PokedexComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

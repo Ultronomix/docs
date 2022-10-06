@@ -11,8 +11,15 @@ import { Pokemon } from '../models/pokemon';
 export class PokemonService {
 
   //I want a counter variable to count number of pokemon seen
+  pokeCounter:number = 0;
 
   //I want a pokemon object to hold the latest pokemon data
+  //its default values will get filled in when we get our first pokemon
+  pokemon:Pokemon = {
+    name:"",
+    types:"",
+    sprites:""
+  }
 
   //we need to inject HttpClient in order to make HTTP requests in this service
   constructor(private http:HttpClient) { }

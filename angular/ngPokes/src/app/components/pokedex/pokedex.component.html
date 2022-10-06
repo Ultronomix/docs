@@ -1,3 +1,6 @@
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
 <div class="container-fluid">
 
     <!-- Input Box to take user input and search the pokeAPI-->
@@ -10,20 +13,28 @@
     <br><br>
 
     <!-- This table will hold in incoming pokemon data that we want to render -->
-    <table class="table table-striped table-hover">
-        
+    <table class="table table-dark table-sm table-hover">
+
         <thead>
-            <th class="col-sm-2">Name</th>
-            <th class="col-sm-2">Type</th>
-            <th>Sprite</th>
+            <tr>
+                <th class="col-sm-2">Name</th>
+                <th class="col-sm-2">Type</th>
+                <th>Sprite</th>
+            </tr>
         </thead>
 
         <tbody>
-            <td>{{pokemon.name}}</td>
-            <td>{{pokemon.types[0].type.name}}</td>
-            <td>
-                <img src="{{pokemon.sprites.front_default}}" alt="">
-            </td>
+            <tr>
+                <td>{{pokemon.name | titlecase}}</td>
+                <td>{{pokemon.types[0].type.name | titlecase}}
+                    <span *ngIf="pokemon.types[1]">
+                        & {{pokemon.types[1].type.name | titlecase}}
+                    </span>
+                </td>
+                <td>
+                    <img src="{{pokemon.sprites.front_default}}" alt="">
+                </td>
+            </tr>
         </tbody>
 
     </table>

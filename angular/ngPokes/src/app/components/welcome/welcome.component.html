@@ -1,7 +1,7 @@
-<h1>Welcome (User Name)!</h1>
+<h1>Welcome {{username}}!</h1>
 
 <div class="border-top border-dark container-fluid">
-    <h4>Number of Pokemon Caught: </h4>
-    <h5>Last Pokemon Found: </h5>
-    <img src="" alt="POKEMON PIC PENDING">
+    <h4>Number of Pokemon Caught: {{pokeCount}}</h4>
+    <h5>Last Pokemon Found: {{pokemon.name}}</h5>
+    <img src="{{pokemon.sprites.front_default}}" alt="POKEMON PIC PENDING">
 </div>

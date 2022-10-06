@@ -1,0 +1,11 @@
+<div class="loginDiv row col-sm-4">
+
+    <h3>{{message}}</h3>
+
+    <input type="text" placeholder="Enter Username" [(ngModel)] = "user.username">
+    <input type="password" placeholder="Enter Password" [(ngModel)] = "user.password">
+
+    <button class="btn btn-dark col-sm-2" (click)="loginFunction()">Login</button>
+
+</div>
+
