@@ -76,7 +76,6 @@ Reimbursements are to be one of the following types:
 - The system's data schema and component design is documented and diagrammed 
 - The system keeps detailed logs on info, error, and fatal events that occur 
 - UI and API builds and deployments are automated using a CI/CD pipeline
-- API is deployed to AWS EC2 (via Elastic Beanstalk) as a Docker container
 - UI is deployed to a AWS S3 bucket configured for static web hosting
 
 ### Suggested Bonus Features
@@ -84,10 +83,10 @@ Reimbursements are to be one of the following types:
 - The system notifies the user of changes to their account registration status by email
 - The system notifies the user of changes to their reimbursement request status by email
 - The system supports user-driven password resets by sending a reset link to the user's registered email address
-
+- API is deployed to AWS EC2 (via Elastic Beanstalk) as a Docker container
 
 #### Project Presentations 
-- TBD
+- Thursday, October 20th
 
 ## Minimal Viable Product Requirements (End-to-end completion)
 - Functional: Users are able to register for an account with the system
