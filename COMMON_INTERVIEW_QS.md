@@ -1,6 +1,6 @@
 **This is not necessarily a comprehensive list, but it should be an excellent start for client interviews, or any Java/Angular full stack role. All of the answers should be easily Google-able. Good luck!**
-*Keep in mind many full stack interviews these days include a coding challenge or two.* 
-*Coding challenges are typically on Java (reverse a string, fizzbuzz, sort an Array, etc) or SQL (select certain columns from a table, find the amount of records in a table, perform a join, etc.)*
+- *Keep in mind many full stack interviews these days include a coding challenge or two.* 
+- *Coding challenges are typically on Java (reverse a string, fizzbuzz, sort an Array, etc) or SQL (select certain columns from a table, find the amount of records in a table, perform a join, etc.)*
 
 ## Java
 
