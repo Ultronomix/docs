@@ -19,6 +19,10 @@ export class UserService {
 
   login(userCreds:User):Observable<HttpResponse<User>>{
 
+      if(userCreds.username.length < 8){
+        
+      }
+
     return this.http.post("http://localhost:5000/taskmaster/auth/pokeLogin", userCreds) as Observable<HttpResponse<User>>
 
   }

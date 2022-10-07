@@ -32,7 +32,7 @@ Reimbursements are to be one of the following types:
 - Spring 5 & Spring Boot
 - Apache Maven
 - Hibernate & Spring Data
-- JSON Web Tokens
+- JSON Web Tokens (Optional)
 - JUnit
 - Mockito
 
@@ -66,6 +66,7 @@ Reimbursements are to be one of the following types:
 
 ### Non-Functional Requirements
 
+- A set of slides will be presented BEFORE the live demo, explaining the application, what problem it solves, and the technologies used.
 - Basic validation is enforced to ensure that invalid/improper data is not persisted
 - User passwords will be hashed by the system before persisting them to the data source
 - Users are unable to recall reimbursement requests once they have been processed (only pending allowed)
@@ -75,7 +76,7 @@ Reimbursements are to be one of the following types:
 - The system's is tested with at least 80% line coverage in all service and utility classes
 - The system's data schema and component design is documented and diagrammed 
 - The system keeps detailed logs on info, error, and fatal events that occur 
-- UI and API builds and deployments are automated using a CI/CD pipeline
+- UI and API builds and deployments are automated using a CI/CD pipeline (UI pipeline is optional)
 - UI is deployed to a AWS S3 bucket configured for static web hosting
 
 ### Suggested Bonus Features
