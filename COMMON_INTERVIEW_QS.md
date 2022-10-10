@@ -66,21 +66,57 @@
 ## Spring
 
 - Give me an overview of Spring. What are some of its characteristics? Where is it used?
+- What is a Spring Bean? How is it different from a POJO (Plain Ol' Java Object)?
+- What is bean wiring? How can I wire a bean?
+- What are the types of dependency injection we can use in Spring? Why is field injection considered bad practice?
+- Explain the concept of IoC. What control is being inverted exactly?
+- What are the two IoC containers we can use? How are they different?
+- What do stereotype annotations do? Which ones do we have in Spring?
+- What is the bean lifecycle? Can you name any of the steps in the lifecycle?
+- What bean scopes are available in Spring? What's the difference between singleton and prototype?
+- What is Spring MVC? What does it do for us?
+- What are some annotations in a Spring MVC Controller?
+- What is Spring Data? What does it do for us?
+- What interface do we extend in our Spring Data repository layer?
+- When would we need to use @Transactional in Spring Data?
+- What is Spring AOP? What does it do for us?
+- Be able to explain: Cross Cutting Concern, Aspect, Advice, JoinPoint, Pointcut
+- What is Spring Boot? Why do we consider it to be "opinionated"?
 
 ## Angular
 
 - Give me an overview of Angular. What are some of its characteristics? Where is it used?
+- What is an SPA? Why are they beneficial over standard multi-page applications?
+- How are nodeJS and Node Package Manager necessary when running an Angular application?
+- What is Typescript and how does it differ from Javascript?
+- What folder stores the dependencies in an Angular app?
+- What is the Angular CLI? How do we use it to create new applications?
+- What is a component in Angular? What is the CLI command to create one?
+- What files are found in an Angular component?
+- What are the 2 ways to display a component? How are they different?
+- How do you set up routing for a component? 
+- How can we navigate between angular components?
+- What is a service in Angular? What is the CLI command to create one?
+- How do we inject a service into an Angular component?
+- What is a module in Angular? How can we import them?
+- What is the @NgModule in Angular? Why is it important?
+- Explain data binding in Angular. What are the 4 types?
+- Explain directives in Angular (specifically ngIf and ngFor)
+- What is a pipe in Angular? Why are they useful?
+- How do we make HTTP requests in Angular?
+- What does it mean to subscribe gto an observable?
+- What are Jasmine and Karma? How do they go hand in hand?
 
 ## Etiquette Tips
 
 - Dress AT LEAST business casual (button down, nice top), but definitely dress to impress (blazer, suit jacket, tie???).
 - Face and look at camera at all times. Cameras on! If this is not possible, just tell your interviewer. 
 - Avoid shifty eyes, or anything that makes it look like you're referring to resources.
-- Beverages are fine, but avoid distracting beverages or containers (a big head sides pitcher that says something like "JAGERMEISTER" would probably be distracting.
+- Beverages are fine, but avoid distracting beverages or containers (a big head-sided pitcher that says something like "JAGERMEISTER" would probably be distracting.)
 - Please don't vape on camera, it should go without saying but it's come up twice now. 
 - It's ok to say you're not sure, but still try to give an answer. Interviewers don't want to hear "IDK" and only "IDK". 
-- Try to avoid filler words. An "um" here or there, but try to replace them with silence where you can.
+- Try to avoid filler words. An "um" here or there is fine, but try to replace them with silence where you can.
 - Try to keep your answers as detailed yet concise as possible. There's a nice middle ground you can find between oversharing and undersharing. 
-- To remedy interview nerves try to trick yourself into talking like you're talking to a friend. Imagine your friend these interview questions genuinely wanting to know.
-- Write a song idea: write a small song (or any memorable cadence/pattern) to make it make sense. 
+- To remedy interview nerves try to trick yourself into talking like you're talking to a friend. Imagine your friend asking these interview questions genuinely wanting to know.
+- Write a song idea: write a small song (or any memorable cadence/pattern) for tricky topics to make it make sense. 
 - Power pose: You can apparently trick your brain into relaxing and feeling more confident if you "power pose" before something stessful. One that comes to mind is stading up straight, hands on your hips or crossed, and chin up. Imagine a thin string pulling you up by your head.
