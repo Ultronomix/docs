@@ -70,5 +70,17 @@
 ## Angular
 
 - Give me an overview of Angular. What are some of its characteristics? Where is it used?
-- 
 
+## Etiquette Tips
+
+- Dress AT LEAST business casual (button down, nice top), but definitely dress to impress (blazer, suit jacket, tie???).
+- Face and look at camera at all times. If this is not possible, just tell your interviewer. 
+- Avoid shifty eyes, or anything that makes it look like you're referring to resources.
+- Beverages are fine, but avoid distracting beverages or containers (a big head sides pitcher that says something like "JAGERMEISTER" would probably be distracting.
+- Please don't vape on camera, it should go without saying but it's come up twice now. 
+- It's ok to say you're not sure, but still try to give an answer. Interviewers don't want to hear "IDK" and only "IDK". 
+- Try to avoid filler words. An "um" here or there, but try to replace them with silence where you can.
+- Try to keep your answers as detailed yet concise as possible. There's a nice middle ground you can find between oversharing and undersharing. 
+- To remedy interview nerves try to trick yourself into talking like you're talking to a friend. Imagine your friend these interview questions genuinely wanting to know.
+- Write a song idea: write a small song (or any memorable cadence/pattern) to make it make sense. 
+- Power pose: You can apparently trick your brain into relaxing and feeling more confident if you "power pose" before something stessful. One that comes to mind is stading up straight, hands on your hips or crossed, and chin up. Imagine a thin string pulling you up by your head.
