@@ -120,3 +120,4 @@
 - To remedy interview nerves try to trick yourself into talking like you're talking to a friend. Imagine your friend asking these interview questions genuinely wanting to know.
 - Write a song idea: write a small song (or any memorable cadence/pattern) for tricky topics to make it make sense. 
 - Power pose: You can apparently trick your brain into relaxing and feeling more confident if you "power pose" before something stessful. One that comes to mind is stading up straight, hands on your hips or crossed, and chin up. Imagine a thin string pulling you up by your head.
+- Save questions til the end. A good interviewer will ask if you have any questions at the end of the interview. If they don't, assert yourself and ask if they have time to answer a question or two. Avoid "too-deep" probing questions like "So what do you get paid bro?"
