@@ -74,7 +74,7 @@
 ## Etiquette Tips
 
 - Dress AT LEAST business casual (button down, nice top), but definitely dress to impress (blazer, suit jacket, tie???).
-- Face and look at camera at all times. If this is not possible, just tell your interviewer. 
+- Face and look at camera at all times. Cameras on! If this is not possible, just tell your interviewer. 
 - Avoid shifty eyes, or anything that makes it look like you're referring to resources.
 - Beverages are fine, but avoid distracting beverages or containers (a big head sides pitcher that says something like "JAGERMEISTER" would probably be distracting.
 - Please don't vape on camera, it should go without saying but it's come up twice now. 
