@@ -104,7 +104,7 @@
 - Explain directives in Angular (specifically ngIf and ngFor)
 - What is a pipe in Angular? Why are they useful?
 - How do we make HTTP requests in Angular?
-- What does it mean to subscribe gto an observable?
+- What does it mean to subscribe to an observable?
 - What are Jasmine and Karma? How do they go hand in hand?
 
 ## Etiquette Tips
