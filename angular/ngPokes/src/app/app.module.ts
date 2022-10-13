@@ -9,7 +9,9 @@ import { PokedexComponent } from './components/pokedex/pokedex.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './components/login/login.component'
+import { PokemonService } from './services/pokemon.service';
 
+//The @NgModule is what makes the angular app aware of all of the components/modules/services
 @NgModule({
   declarations: [
     AppComponent,
